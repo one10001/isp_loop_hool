@@ -73,7 +73,7 @@ class Client:
             except:
                  await self.connect()
 
-server = '141.145.199.199'
+server = 'x.x.x.x'
 port = 30
 client = Client(server, port)
 asyncio.run(client.run())
